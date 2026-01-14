@@ -1,0 +1,26 @@
+﻿Biežāk lietotie JavaScript notikumi:
+
+
+1. click – notikums tiek izsaukts, kad lietotājs noklikšķina uz pogas vai cita elementa.
+To izmanto, lai veiktu darbības pēc lietotāja klikšķa.
+
+
+2. mouseover – notikums tiek aktivizēts, kad pele tiek uzvesta virs elementa.
+To izmanto, lai parādītu papildu informāciju vai mainītu dizainu.
+
+
+3. mouseout – notikums notiek, kad pele tiek novesta prom no elementa.
+To izmanto, lai atjaunotu sākotnējo izskatu.
+
+
+4. input – notikums tiek izsaukts, kad lietotājs ievada tekstu ievades laukā.
+To izmanto, lai reāllaikā apstrādātu ievadīto informāciju.
+
+
+5. change – notikums tiek aktivizēts, kad ievades lauka vērtība tiek mainīta un apstiprināta.
+To izmanto formu apstrādei.
+
+
+Savā projektā izmantošu notikumus:
+- click
+- input

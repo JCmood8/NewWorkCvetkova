@@ -1,0 +1,11 @@
+﻿Savā projektā es izmantoju click un input notikumus.
+
+
+Click notikums ļauj lietotājam mijiedarboties ar pogu un saņemt paziņojumu.
+
+
+Input notikums ļauj lietotājam ievadīt savu vārdu un redzēt izmaiņas lapā.
+
+
+Šie notikumi uzlabo lietotāja pieredzi, jo mājaslapa kļūst interaktīva
+un reaģē uz lietotāja darbībām.
