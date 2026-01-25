@@ -1,0 +1,108 @@
+﻿Darbs ar DOM elementiem un dinamiska satura veidošana
+
+
+Vārds, uzvārds: Jūlija Cvetkova 
+Datums: 22.01.26
+
+
+
+
+1. uzdevums – DOM jēdziens (teorija)
+
+
+1.1. Kas ir DOM?
+
+
+DOM (Document Object Model) ir tīmekļa lapas struktūra, kuru JavaScript var nolasīt un mainīt.
+Tas ļauj programmēšanas valodai piekļūt HTML elementiem un tos manipulēt.
+
+
+1.2. Kāpēc DOM ir nepieciešams dinamiskos tīmekļa produktos?
+
+
+DOM ir nepieciešams, lai tīmekļa lapa varētu reaģēt uz lietotāja darbībām.
+Bez DOM nebūtu iespējams mainīt saturu, stilus vai elementus bez lapas pārlādes.
+
+
+
+
+2. uzdevums – DOM elementu atlase
+
+
+2.1. DOM elementu atlases metodes:
+
+
+1. document.getElementById()
+2. document.querySelector()
+3. document.getElementsByClassName()
+
+
+2.2. Kuru atlases metodi Tu šodien izmantoji visbiežāk? Kāpēc?
+
+
+Visbiežāk izmantoju document.getElementById(), jo tā ir vienkārša un ātra metode,
+kas ļauj viegli atlasīt konkrētu elementu ar unikālu identifikatoru.
+
+
+
+
+3. uzdevums – Esoša HTML elementa maiņa ar JavaScript
+
+
+JavaScript kods:
+
+
+const text = document.getElementById("text");
+text.textContent = "Teksts ir mainīts ar JavaScript";
+text.style.color = "blue";
+
+
+3.1. Apraksts:
+
+
+Kad šis kods tiek izpildīts, tiek atlasīts HTML elements ar ID "text".
+Tiek mainīts tā saturs un teksta krāsa, kas uzreiz redzams lietotājam lapā.
+
+
+
+
+4. uzdevums – Dinamiska HTML elementa izveide
+
+
+JavaScript kods:
+
+
+const newParagraph = document.createElement("p");
+newParagraph.textContent = "Šis ir dinamiski izveidots elements";
+document.body.appendChild(newParagraph);
+
+
+
+
+5. uzdevums – HTML elementa noņemšana
+
+
+JavaScript kods:
+
+
+newParagraph.remove();
+
+
+
+
+6. uzdevums – DOM nozīme dinamiskā produktā
+
+
+DOM manipulācijas ļauj veidot interaktīvas un dinamiskas tīmekļa lapas.
+Tās dod iespēju mainīt saturu bez lapas pārlādes.
+DOM tiek izmantots, lai reaģētu uz lietotāja darbībām, piemēram, klikšķiem vai ievadi.
+Bez DOM moderni tīmekļa produkti nebūtu iespējami.
+
+
+
+
+7. uzdevums – Refleksija
+
+
+Šajā stundā es iemācījos, kā JavaScript var piekļūt HTML elementiem, izmantojot DOM.
+Es uzzināju, kā mainīt elementu saturu, stilus, kā arī izveidot un noņemt elementus dinamiski.
