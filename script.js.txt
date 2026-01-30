@@ -1,0 +1,24 @@
+﻿console.log("JS pieslēgts un darbojas");
+
+
+const button = document.getElementById("actionButton");
+const input = document.getElementById("nameInput");
+const message = document.getElementById("message");
+
+
+// Funkcija ar parametru
+function showMessage(name) {
+    if (name === "") {
+        message.textContent = "Lūdzu, ievadi savu vārdu!";
+        message.style.color = "red";
+    } else {
+        message.textContent = "Sveiki, " + name + "!";
+        message.style.color = "green";
+    }
+}
+
+
+// Notikums – pogas klikšķis
+button.addEventListener("click", function () {
+    showMessage(input.value);
+});
