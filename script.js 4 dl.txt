@@ -1,0 +1,26 @@
+﻿document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+
+
+    let error = document.getElementById("error");
+    let success = document.getElementById("success");
+
+
+    error.textContent = "";
+    success.textContent = "";
+
+
+    if (name === "" || email === "") {
+        error.textContent = "Lūdzu, aizpildi visus laukus!";
+    } else if (name.length < 2) {
+        error.textContent = "Vārds ir pārāk īss!";
+    } else if (!email.includes("@")) {
+        error.textContent = "Nepareizs e-pasta formāts!";
+    } else {
+        success.textContent = "Forma veiksmīgi nosūtīta!";
+    }
+});

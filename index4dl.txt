@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <title>Forma ar validāciju</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header>
+    <h1>Kontaktforma</h1>
+</header>
+
+
+<main>
+    <form id="contactForm">
+        <label>Vārds:</label><br>
+        <input type="text" id="name"><br><br>
+
+
+        <label>E-pasts:</label><br>
+        <input type="text" id="email"><br><br>
+
+
+        <button type="submit">Nosūtīt</button>
+    </form>
+
+
+    <p id="error"></p>
+    <p id="success"></p>
+</main>
+
+
+<footer>
+    <p>© Mana mājaslapa</p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
